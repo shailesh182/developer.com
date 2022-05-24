@@ -1,0 +1,273 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;padding: 0;
+}
+
+.sidebar{
+    position: absolute;
+    background-color: rgb(226, 215, 215);
+    /*width: 350px;*/
+    font-family: 'Tapestry', cursive;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 33px 0;
+   
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+
+.main{
+   /* background-color: yellow;*/
+    width: 85vw;
+}
+
+.container{
+    display: flex;
+}
+
+.infocontainer{
+    /*background-color: red;*/
+    height: 58vh;
+    width: 75vw;
+    margin: 65px auto;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    
+}
+
+.myinfo{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.hello{
+    font-size: 70px;
+    
+
+}
+
+.name{
+    font-size: 55px;
+    font: bold;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+.about{
+    font-size: 45px;
+}
+.button{
+    margin-top: 34px;
+
+}
+
+.button button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: blue;
+    font-weight: bold;
+    font-size: 21px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.button button:hover{
+    background-color: white;
+    color: blue;
+
+}
+
+.mypic img{
+    height: 58vh;
+    
+}
+
+
+
+
+/*-------Contact------*/
+
+.contactform{   
+    width: 80%;
+    margin: auto;
+    padding: 10px 20px;
+    font-family: 'Source Code Pro', monospace;
+    margin-top: 40px;
+    margin-left: 50px;
+}
+
+.contactform h1{
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+ 
+
+.apply-form input, .apply-form textarea{
+    width: 80%;
+    padding: 10px;
+    margin: 15px 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: #f0f0f0;
+
+}
+
+.apply-form button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: black;
+    background-color: white;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.apply-form button:hover{
+    background: black;
+    color: white;
+    
+
+}
+
+
+/*-------BLOG------*/
+
+.blogcontainer{
+    margin-left: 50px;
+}
+
+.blogitem{
+    margin: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+ }
+
+ .blogcontainer h1{
+    font-family: 'Source Code Pro', monospace;
+    margin: 25px;
+ }
+
+ .blogcontainer button{
+     color: white;
+     background: blue;
+    font-size: 15px;
+     border-radius: 10px;
+     font-weight: bold;
+     padding: 9px 14px;
+     margin: 1px 3px;;
+     cursor: pointer;
+ }
+
+ .blogcontainer button:hover{
+     background: white;
+     color: blue;
+ }
+
+.blogitem h2{
+    padding: 5px;
+}
+
+.blogitem p{
+    padding: 3px;
+}
+
+/*----MYINTRO-----*/
+
+.myintro h1{
+    font-family: 'Josefin Sans', sans-serif;
+    margin: 12px;
+}
+
+.myintro p{
+    font-family: 'Source Code Pro', monospace; 
+    margin: 12px;
+}
+
+.skillcontainer{
+    margin: 12px;
+}
+
+.skillitems{
+    display: flex;
+    align-items: center;
+}
+
+
+.skill{
+    width: 300px;
+    height: 5px;
+    background-color: red;
+}
+
+.introduction{
+    margin-left: 50px;
+    margin-top: 40px;
+}
+
+
+/*-------Index-----*/
+.font{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+    font-size: 22px;
+    display: flex;
+    
+}
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+  }
+
+.close{
+    margin-left: 170px;
+    font-size: 30px;
+}
+
+.icon{
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media (max-width: 1350px) {
+  
+    *{
+       /* background-color: rgb(240, 158, 158);*/
+    }
+.mypic img{
+    display: none;
+}
+
+  /* .slidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+      }
+}*/
+
+
+
+
